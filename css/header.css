@@ -12,20 +12,23 @@ header {
     max-width: 1089px;
 }
 .logo-container{
-    float: left;
+    float: none;
     margin-top: 39px;
     display: block;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 .logo img{
-    width: 474px;
+    width: 250px;
 }
 .account-links {
-    float: right;
-    margin-top: 30px;
+display: block;
+text-align:center;
+margin-top: 20px;
+margin-bottom: 0px;
+font-weight: 800;
 }
 ul.inline-list, ul.link-list {
-    margin: 0 0 17px -22px;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -38,6 +41,7 @@ ul.inline-list, ul.link-list {
 .account-links a {
     color: #ff7713 !important;
     opacity: 0.7;
+    font-weight: 800;
 }
 .account-links  a:hover {
     color: #fff;
@@ -655,7 +659,7 @@ text-align: center;
         .drop2 {}
 
         .drop {
-            max-width: 983px;
+            max-width: 1200px;
             margin: auto;
             height: 52px;
         }
@@ -680,23 +684,22 @@ text-align: center;
         .drop li a {
             display: block;
             /* min-width:140px;*/
-            height: 50px;
+            height: 30px;
             text-align: center;
-            line-height: 50px;
+            line-height: 30px;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            color: #fff;
-            background: #2b2726;
+            color: #2b2726;
             text-decoration: none;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 13px;
+            padding-right: 13px;
             font-size: 15px;
+            font-weight: bold;
         }
 
         /*Hover state for top level links*/
 
         .drop li:hover a {
-            background: #ef7520;
-            ;
+            color: #ff7713;
         }
 
         /*Style for dropdown links*/
@@ -793,7 +796,7 @@ text-align: center;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             text-decoration: none;
             color: #fff;
-            background: #ef7520;
+            background: #000000;
             ;
             text-align: center;
             padding: 10px 0;
